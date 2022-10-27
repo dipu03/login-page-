@@ -131,6 +131,7 @@ app.get('/logout', function(req, res, next) {
       res.redirect('/');
     });
 });
+
   
 app.post("/register", function(req, res){
   
